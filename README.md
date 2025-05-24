@@ -1,12 +1,123 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 💸 CashKaro Home Page UI Clone
 
-Currently, two official plugins are available:
+A fully responsive **React + Tailwind CSS** UI clone of the CashKaro homepage. This project mimics the look and structure of the CashKaro promotional landing page, showcasing deals, offers, categories, testimonials, and more. Built with performance in mind using **Vite**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> 🔗 Live Project Link (optional): _Add Netlify/Vercel link here if deployed_
 
-## Expanding the ESLint configuration
+> 📂 GitHub Repository: [https://github.com/gokulakrishnan2327/cashkaro](https://github.com/gokulakrishnan2327/cashkaro)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+- 🔍 Search bar with responsive design
+- 📣 Main promotional banner
+- 📦 Top categories section
+- 🔥 Exclusive offers & flash deals section
+- 🎯 Dynamic product deal cards
+- 🛒 Top-selling and trending offers
+- 💰 Cashback information section
+- 👥 Customer testimonials
+- 📞 Footer with quick links and contact
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology     | Description                         |
+|----------------|-------------------------------------|
+| React 19       | JavaScript UI library               |
+| Vite           | Blazing fast build tool             |
+| Tailwind CSS   | Utility-first CSS framework         |
+| Lucide Icons   | Clean, open-source icon library     |
+
+---
+
+## 📁 Project Structure
+
+```
+
+src/
+├── assets/                  # Images (flash, logos, background)
+├── components/              # Reusable React components
+│   ├── HeaderSearch.jsx
+│   ├── MainBanner.jsx
+│   ├── TopCategories.jsx
+│   ├── ExclusiveOffers.jsx
+│   ├── FlashDeal.jsx
+│   ├── SalesSections.jsx
+│   ├── TopSellingOffers.jsx
+│   ├── Cashback.jsx
+│   ├── TestimonialsSection.jsx
+│   └── FooterSection.jsx
+├── App.jsx                  # Main component
+└── main.jsx                 # App entry point
+
+````
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/gokulakrishnan2327/cashkaro.git
+cd cashkaro
+````
+
+2. **Install dependencies:**
+
+```bash
+npm install
+```
+
+3. **Start the development server:**
+
+```bash
+npm run dev
+```
+
+---
+
+## 🧪 Build for Production
+
+```bash
+npm run build
+```
+
+## 🔍 Preview Production Build
+
+```bash
+npm run preview
+```
+
+---
+
+## 🖼️ Screenshots
+
+> Add screenshots or demo video of the UI here.
+
+---
+
+## 🤝 Contributing
+
+This project is for educational and portfolio purposes. PRs or suggestions are welcome!
+
+---
+
+## 📄 License
+
+This project is not affiliated with CashKaro. All trademarks belong to their respective owners.
+
+---
+
+**Made with ❤️ by [Gokulakrishnan S](https://github.com/gokulakrishnan2327)**
+
+```
+
+---
+
+Let me know if you'd like to include badges, deployment steps, or Netlify preview setup!
+```
